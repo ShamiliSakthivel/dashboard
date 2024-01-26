@@ -1,0 +1,37 @@
+﻿<Page x:Class="dashboard.Files"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:dashboard"
+      mc:Ignorable="d" 
+      d:DesignHeight="850"
+      Title="Files" Width="935">
+
+    <Grid>
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition ></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Image Source="https://cdn1.iconfinder.com/data/icons/neliku-office/128/yumminky-neliku-office-11-512.png" Margin="45,110,0,20" Grid.RowSpan="2"/>
+        <Button Content="Project Files" FontSize="15" FontWeight="Bold" Background="Orange"    Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="140" Margin="25,0,0,35" Width="170" Grid.RowSpan="2" />
+        <Image Source="https://cdn1.iconfinder.com/data/icons/neliku-office/128/yumminky-neliku-office-11-512.png"  Grid.Column="1" Margin="25,110,0,20" Grid.RowSpan="2"/>
+        <Button Content="Internship programs" FontSize="15" FontWeight="Bold"   Background="Red"   Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Height="140" Margin="0,165,0,0" Width="200" Grid.RowSpan="2" />
+        <Image Source="https://cdn1.iconfinder.com/data/icons/neliku-office/128/yumminky-neliku-office-11-512.png"  Grid.Column="2" Margin="25,110,0,20" Grid.RowSpan="2"/>
+        <Button Content="Work Document"  FontSize="15" FontWeight="Bold" Background="Yellow"   Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="140" Margin="231,0,0,35" Width="230" Grid.RowSpan="2" Grid.ColumnSpan="2" />
+
+        <Image Source="https://cdn1.iconfinder.com/data/icons/neliku-office/128/yumminky-neliku-office-11-512.png"  Grid.Column="3" Margin="50,110,0,20" Grid.RowSpan="2"/>
+        <Button Content="Project Files"  Click="Button_Click" FontSize="15" FontWeight="Bold"  Background="Aqua"    Grid.Row="1" Grid.Column="3" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="140" Margin="9,0,0,35" Width="210" Grid.RowSpan="2" />
+
+    </Grid>
+</Page>

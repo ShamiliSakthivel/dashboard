@@ -1,0 +1,64 @@
+﻿<Window x:Class="dashboard.Win"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dashboard"
+        mc:Ignorable="d"
+        Title="Win"   Background="Black"   Height="2000" Width="1000">
+    <Grid>
+
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+            <RowDefinition Height="50" ></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+
+        <Border Background="LawnGreen"      VerticalAlignment="Center" CornerRadius="10,0,100,0" Height=" 50" Margin="0,0,-170,0" Grid.ColumnSpan="4"/>
+
+        <Button Content="FILE MANAGER" Click="Button_Click_6" Background="Transparent"   Grid.Row=" 0" FontWeight="UltraBold"   FontSize="30" Margin="65,-11,86,46" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button Content="LOG OUT"  Background="Transparent"   Grid.Row=" 0" FontWeight="UltraBold"  Click="Button_Click_7"  FontSize="30" Margin="0,-11,-255,46" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Grid.RowSpan="2" Width="360" Grid.Column="3"/>
+
+        <Image Source=" https://cdn4.iconfinder.com/data/icons/essentials-74/24/009_-_Folder-512.png" Grid.Row="0" HorizontalAlignment="Left"  Width="60" ></Image>
+        <Image Source="https://cdn2.iconfinder.com/data/icons/custom-ios-14-1/60/Home-512.png" Grid.Row="2" HorizontalAlignment="Left"  Width="60" Margin="5,0,0,0" RenderTransformOrigin="0.583,0.476"></Image>
+
+        <Button Content="HOME" Click="Button_Click_1" Grid.Row="1" Grid.Column="0" Margin="60,34,5,6"  Grid.RowSpan="2" BorderBrush="Black"  Foreground="Green" FontWeight="Bold"   FontSize="22" Background="Black" />
+        <Image Source=" https://cdn4.iconfinder.com/data/icons/desktop-app-free/32/Desktop_Desktop_App_Monitor_Computer_Technology-01-512.png "  Grid.Row="4" HorizontalAlignment="Left"  Width="60" Margin="5,0,0,0" ></Image>
+
+        <Button Content="DESKTOP" Click="Button_Click_3" Grid.Row="3" Grid.Column="0" Margin="55,39,0,1" Grid.RowSpan="2"  BorderBrush="Black" Foreground="Yellow"  FontWeight="Bold"   FontSize="22" Background="Black"  />
+        <Image Source="https://cdn2.iconfinder.com/data/icons/ios-14-custom-application/62/application-08-512.png "  Grid.Row="6" HorizontalAlignment="Left"  Width="65" Margin="0,4,0,46" Grid.RowSpan="2" ></Image>
+
+
+        <Button Content="Files" Click="Button_Click_5" Grid.Row="5" Grid.Column="0" Margin="60,43,0,47" Grid.RowSpan="3"  BorderBrush="Black" Foreground="Magenta"  FontWeight="Bold"   FontSize="22" Background="Black"  />
+        <Image Source=" https://cdn0.iconfinder.com/data/icons/Insane%20Icons/512/Downloads.png"  Grid.Row="8" HorizontalAlignment="Left"  Width="65" ></Image>
+
+        <Button Content="DOUNLOADS" Click="Button_Click"  Grid.Row="7" Grid.Column="0" Margin="50,39,0,1" Grid.RowSpan="2"  BorderBrush="Black" Foreground="DarkBlue"  FontWeight="Bold"   FontSize="22" Background="Black"  />
+        <Button Content="PICTURES"  Grid.Row="9" Grid.Column="0" Margin="10,39,0,1" Grid.RowSpan="2"  BorderBrush="Black" Foreground="OrangeRed"  FontWeight="Bold"   FontSize="22" Background="Black" />
+        <Image Source="https://cdn4.iconfinder.com/data/icons/essentials-74/24/006_-_Image-512.png "  Grid.Row="10" HorizontalAlignment="Left"  Width="65"></Image>
+
+        <Button Content="STORAGE" Click="Button_Click_2" Grid.Row="11" Grid.Column="0" Margin="10,39,0,1" Grid.RowSpan="2"  BorderBrush="Black" Foreground="Brown"  FontWeight="Bold"   FontSize="22" Background="Black" />
+        <Image Source="https://cdn0.iconfinder.com/data/icons/essential-pack-4/512/2-2-64.png "  Grid.Row="12" HorizontalAlignment="Left"  Width="65"></Image>
+        <Frame x:Name="framemain" Grid.Column="1" Grid.Row="1" Margin="15,4,-305,-229" Grid.RowSpan="13" Grid.ColumnSpan="3"></Frame>
+
+    </Grid>
+
+</Window>
